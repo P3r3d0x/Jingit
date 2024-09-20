@@ -1,0 +1,65 @@
+name: jingitmob
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.4.4 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  shared_preferences: ^2.3.0
+  connectivity_plus: ^6.0.4
+  flutter_switch: ^0.3.2
+  country_pickers: ^3.0.1
+  smooth_page_indicator: ^1.2.0+3
+  flutter_svg_provider: ^1.0.7
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.4.0
+  dotted_border: ^2.1.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+        - asset: assets/fonts/InterBlack.ttf
+          weight: 900
+        - asset: assets/fonts/InterMediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterSemiBoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/InterItalic.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsLight.ttf
+          weight: 300
+        - asset: assets/fonts/PoppinsExtraLight.ttf
+          weight: 300
